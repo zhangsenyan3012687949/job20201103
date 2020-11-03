@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+body {
+  background-color: #f0f0f0;
+}
+.topnav {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+.topnav .nr {
+  margin: 0 auto;
+  width: 1200px;
+  height: 70px;
+  line-height: 70px;
+}
+.topnav .nr .left {
+  float: left;
+}
+.topnav .nr .left img {
+  margin-top: 10px;
+}
+.topnav .nr .center {
+  float: left;
+  margin-left: 70px;
+}
+.topnav .nr .center ul li a {
+  display: block;
+  float: left;
+  height: 70px;
+  margin-left: 40px;
+  color: black;
+}
+.topnav .nr .center ul li :hover {
+  color: orange;
+  border-bottom: 2px solid skyblue;
+}
+.topnav .nr .right {
+  float: right;
+}
+.topnav .nr .right input {
+  width: 170px;
+  height: 40px;
+  background: url(../11.3作业/img/sou.gif) no-repeat 150px center;
+  padding: 0 10px;
+  border: none;
+  background-color: #ebebeb;
+  color: #999999;
+}
+.nav {
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+.nav ul li a {
+  padding: 0 10px;
+  color: #999999;
+  font-size: 14px;
+}
+.banner {
+  width: 100%;
+  height: 550px;
+  background: url(../11.3作业/img/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.box .nr {
+  height: 140px;
+  line-height: 40px;
+}
+.box .hezi {
+  height: 180px;
+  margin-top: 100px;
+  background-color: #f3f6f6;
+}
+.box .hezi .one {
+  float: left;
+  width: 385px;
+  height: 150px;
+  margin-top: 30px;
+  background: url(../11.3作业/img/xian.gif) no-repeat right center;
+  text-align: center;
+  line-height: 60px;
+}
+.box .hezi .one p {
+  color: #999999;
+}
+.box .hezi .one p span {
+  font-size: 40px;
+  color: skyblue;
+}
+.box .hezi #op {
+  background: none;
+}
+.box .two {
+  height: 800px;
+  margin-top: 100px;
+}
+.box .two .left {
+  margin-top: 50px;
+  width: 370px;
+  background-color: white;
+  height: 750px;
+  float: left;
+}
+.box .two .left h3 {
+  width: 210px;
+  height: 50px;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  margin-left: 20px;
+}
+.box .two .left p {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #999999;
+  font-weight: bolder;
+  line-height: 50px;
+}
+.box .two .left p span {
+  font-size: 40px;
+  color: skyblue;
+}
+.box .two .right {
+  width: 800px;
+  height: 750px;
+  float: right;
+  background-color: white;
+  margin-top: 50px;
+}
+.box .two .right .top {
+  height: 325px;
+}
+.box .two .right .top .left0 {
+  width: 280px;
+  float: left;
+}
+.box .two .right .top .left0 h3 {
+  width: 210px;
+  height: 50px;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  margin-left: 20px;
+}
+.box .two .right .top .left0 p {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #999999;
+  font-weight: bolder;
+  line-height: 50px;
+}
+.box .two .right .top .left0 p span {
+  font-size: 40px;
+  color: skyblue;
+}
+.box .two .right .top .right0 {
+  width: 520px;
+  height: 330px;
+  float: right;
+  background: url(../11.3作业/img/one.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.box .two .right .bottom {
+  height: 380px;
+  margin-top: 20px;
+}
+.box .two .right .bottom .left1 {
+  float: left;
+  width: 500px;
+  height: 350px;
+  background: url(../11.3作业/img/two.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.box .two .right .bottom .right1 {
+  float: right;
+  width: 300px;
+  height: 350px;
+}
+.box .two .right .bottom .right1 h3 {
+  width: 210px;
+  height: 50px;
+  margin-top: 10px;
+  border-bottom: 2px solid skyblue;
+  margin-left: 20px;
+}
+.box .two .right .bottom .right1 p {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #999999;
+  font-weight: bolder;
+  line-height: 50px;
+}
+.box .two .right .bottom .right1 p span {
+  font-size: 40px;
+  color: skyblue;
+}
+.dls {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+}
+.dls .nr {
+  width: 25%;
+  height: 300px;
+  float: left;
+  background: url(../11.3作业/img/three.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.dls .nr p {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+.dls .nr1 {
+  width: 25%;
+  height: 300px;
+  float: left;
+  background: url(../11.3作业/img/four.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.dls .nr1 p {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+.dls .nr2 {
+  width: 25%;
+  height: 300px;
+  float: left;
+  background: url(../11.3作业/img/five.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.dls .nr2 p {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+.dls .nr3 {
+  width: 25%;
+  height: 300px;
+  float: left;
+  background: url(../11.3作业/img/six.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.dls .nr3 p {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+.foot {
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-bottom: 2px solid black;
+}
+.foot .one1 {
+  float: left;
+  width: 130px;
+  height: 265px;
+  padding-left: 20px;
+  background: url(../11.3作业/img/daxian.gif) no-repeat right center;
+}
+.foot .one1 ul {
+  margin-top: 20px;
+}
+.foot .one1 ul li {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+}
+.foot .one1 ul li a {
+  color: #999999;
+}
+.foot .one2 {
+  width: 550px;
+  height: 265px;
+  float: left;
+  background: url(../11.3作业/img/daxian.gif) no-repeat right center;
+}
+.foot .one2 .left {
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+.foot .one2 .left ul {
+  margin-top: 20px;
+}
+.foot .one2 .left ul li {
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+}
+.foot .one2 .left ul li a {
+  color: #999999;
+}
+.foot .one2 .center {
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+.foot .one2 .center ul {
+  margin-top: 20px;
+}
+.foot .one2 .center ul li {
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+}
+.foot .one2 .center ul li a {
+  color: #999999;
+}
+.foot .one2 .right {
+  float: right;
+}
+.foot .one2 .right ul {
+  margin-top: 20px;
+}
+.foot .one2 .right ul li {
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+}
+.foot .one2 .right ul li a {
+  color: #999999;
+}
+#opp {
+  background: none;
+}
+.foots {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 50px;
+}
+.foots .left {
+  float: left;
+}
+.foots .left a {
+  background: url(../11.3作业/img/qiu.gif) no-repeat left center, url(../11.3作业/img/xia.gif) no-repeat right center;
+  padding: 0 30px;
+  color: #999999;
+  margin-top: 20px;
+  display: block;
+}
+.foots .right {
+  float: right;
+}
+.foots .right ul li a {
+  color: black;
+  font-weight: bolder;
+  padding: 0 10px;
+}
+.foots .right p {
+  margin-top: 20px;
+}
